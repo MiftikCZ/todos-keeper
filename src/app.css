@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  padding: 0.5em;
+  @apply bg-zinc-950 text-gray-100;
+}
+
+.header {
+  /* color: #EEEEEE; */
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.25em;
+}
+
+.checkbox {
+  flex-shrink: 0;
+  @apply self-center;
+  height: 0.9em;
+  width: 0.9em;
+  padding: 0em;
+  border: #aaa2 2px solid;
+  border-radius: 0.1em;
+}
+
+.checkbox.done {
+  @apply border-red-500;
+}
